@@ -29,3 +29,27 @@
 #Flowchart:
 
 #Output:
+
+1.Add:
+
+![Screenshot_20191206-232424~2](https://user-images.githubusercontent.com/56975779/70339985-78d10200-1882-11ea-9ab0-2f3fb3a3d8a6.png)
+
+2.List:
+
+![Screenshot_20191206-232736~3](https://user-images.githubusercontent.com/56975779/70340108-bdf53400-1882-11ea-9ff3-214aa28b357a.png)
+
+3.Search:
+
+![Screenshot_20191206-234108~2](https://user-images.githubusercontent.com/56975779/70340428-5c819500-1883-11ea-84a6-fb56acbee9b1.png)
+
+4.Edit:
+
+![Screenshot_20191206-232619~2](https://user-images.githubusercontent.com/56975779/70340193-e41ad400-1882-11ea-8184-690853dfd335.png)
+
+5.Hapus/Delete:
+
+![Screenshot_20191206-232703~2](https://user-images.githubusercontent.com/56975779/70340328-2fcd7d80-1883-11ea-9fbc-03f43089998c.png)
+
+6.Quit:
+
+![Screenshot_20191206-232736~2](https://user-images.githubusercontent.com/56975779/70340533-89ce4300-1883-11ea-8f2a-15782db369ac.png)
