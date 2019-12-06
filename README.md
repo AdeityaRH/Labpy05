@@ -12,11 +12,11 @@ Kelima buat sebuah menu menggunakan elif c.lower() == 'l': ,gunanya untuk membua
 
 Keenam buat sebuah list yang nantinya akan menjadi isi dari dictionary yang kita buat,dan list tersebut terdiri dari beberapa input-tan,input-tan tersebut terdiri dari Nama,Nim,Nilai Tugas,UTS dan UAS.
 
-Ketujuh buat sebuah menu edit,gunanya ini akan mengedit sebuah data yang ada pada no 5. setelah kita membuat data di no 6. if c lower e (edit)
+Ketujuh buat sebuah menu edit,gunanya ini akan mengedit sebuah data yang ada pada list yang tadi kita buat.dengan menggunakan syntax if c lower == 'e'.
 
-Setelah itu kita buat sebuah program lanjuttan untuk menghapus sebuah data yg ada pada no 5. setelah kita menambahkan data pada no.6. if c lower h (Hapus)
+Kedelapan buat sebuah menu hapus,gunanya untuk menghapus data nilai mahasiswa yang ada pada dictionary.Dengan menggunakan syntax if c lower == 'h' dan dengan menghapus key(NIM) yang ada pada dictionary. 
 
-Setalh itu untuk mencari sebuah data yg ada pada no.5. kita masukkan sebuah program berikut: if c lower c (Cari)
+Kesembilan itu untuk mencari sebuah data yg ada pada no.5. kita masukkan sebuah program berikut: if c lower c (Cari)
 
 10.Dan yang terakhir kita masukkan sebuah snyatx else: untuk akhiran sebuah program kita tersebut. else
 
