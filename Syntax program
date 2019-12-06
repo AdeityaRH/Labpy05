@@ -1,0 +1,55 @@
+print("========================")
+print("     Selamat Datang     ")
+print("========================")
+
+daftar = {}
+while True:
+    print("")
+    c = input("A)dd, E)dit, D)elete, S)earch, L)ist, Q)uit: ")
+    if c.lower() == 'q':
+        break
+    elif c.lower() == 'l':
+        print("Daftar Data Siswa")
+        print("Nim | Nama  | Nilai Tugas | Nilai Uts | Nilai Uas | Nilai Akhir |")
+        print("=====================================================================")
+        for x in daftar.items():
+            print("{0:10s} | {1} | ".format(x[0][:10], x[1]))
+            print("=============================================================")
+    elif c.lower() == 'a':
+        print("Tambah Data Siswa")
+        nama = input("Nama: ")
+        nim = input("NIM: ")
+        tugas = float(input("Tugas: "))
+        uts = float(input("Uts: "))
+        uas = float(input("Uas: "))
+        nilai = float(tugas)*30/100 + (uts)*30/100 + (uas)*30/100
+        daftar[nim] = nama, tugas, uts, uas, nilai
+    elif c.lower() == 'e':
+        print("Edit Data Siswa")
+        nim = input("NIM: ")
+        if nim in daftar.keys():
+            nama = input("Nama Baru: ")
+            tugas = float(input("Tugas baru: "))
+            uts = float(input("Uts baru: "))
+            uas = float(input("Uas: "))
+            nilai = float(tugas) *30/100 + (uts)*30/100 + (uas)*30/100
+            daftar[nim] = nama, tugas, uts, uas, nilai
+        else:
+            print("nim {0} tidak ada".format(nim))
+    elif c.lower() == 'd':
+        print("Hapus Data Siswa")
+        nim = input("NIM: ")
+        if nim in daftar.keys():
+            del daftar[nim]
+        else:
+            print("Siswa Dengan NIM {0} tidak ada".format(nim))
+    elif c.lower() == 's':
+        print("Search Siswa")
+        nim = input("NIM: ")
+        if nim in daftar.keys():
+            print("Siswa dengan NIM : {0} adalah {1}"\
+                    .format(nim, daftar[nim]))
+        else:
+            print("Siswa Dengan NIM : {0} tidak ada".format(nim))
+    else:
+        print("Pilih menu yang tersedia")
