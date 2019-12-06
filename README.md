@@ -28,6 +28,8 @@
 
 #Flowchart:
 
+![Screenshot_20191207-010809~2](https://user-images.githubusercontent.com/56975779/70345270-39101780-188e-11ea-9bb7-065a478716bb.png)
+
 #Output:
 
 1.Add:
